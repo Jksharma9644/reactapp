@@ -6,7 +6,7 @@ registerScreens();
 
 Navigation.startSingleScreenApp({
   screen: {
-    screen: 'Landing',
-    title: 'Welcome'
+    screen: 'Login',
+    title: 'Login'
   }
 });

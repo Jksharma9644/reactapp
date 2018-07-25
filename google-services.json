@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "118810988506",
+    "firebase_url": "https://oms-auat.firebaseio.com",
+    "project_id": "oms-auat",
+    "storage_bucket": "oms-auat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118810988506:android:eb61b557040a2cf9",
+        "android_client_info": {
+          "package_name": "nativeApp.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118810988506-9ngn2an40pkq39gm3udgm1u8uaufn0d4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrkwHYEhj91S2zLfGRMUyfye0qm75XwX8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
