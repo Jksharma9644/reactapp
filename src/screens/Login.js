@@ -1,13 +1,13 @@
 import React from 'react'
 import { StyleSheet, Text, TextInput, View, Button,TouchableOpacity} from 'react-native'
 import Loader from '../components/UI/loader';
-// import firebase from 'react-native-firebase'
-
+import  startMainTabs  from './startMainTabs';
 export default class Login extends React.Component {
   state = { email: '', password: '', errorMessage: null }
+
+
   handleLogin = () => {
-    // TODO: Firebase stuff...
-    console.log('handleLogin')
+    startMainTabs();
   }
   render() {
     return (
@@ -47,7 +47,7 @@ export default class Login extends React.Component {
                     </View>
                 </TouchableOpacity>
 
-         <Loader auth='true' />
+         {/* <Loader auth='true' /> */}
       </View>
     )
   }
