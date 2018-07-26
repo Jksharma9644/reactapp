@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, TextInput, View, Button,TouchableOpacity} from 'react-native'
-import Loader from '../components/UI/loader';
+import Loader from '../UI/loader';
 import  startMainTabs  from './startMainTabs';
 export default class Login extends React.Component {
   state = { email: '', password: '', errorMessage: null }
